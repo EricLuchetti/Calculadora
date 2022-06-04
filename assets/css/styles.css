@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+@media screen and (min-width:200px){
+
+    body {
+        max-width: 150px;
+        max-height: 150px;
+        box-sizing: border-box;
+    }   
+}
+
+section {
+    box-sizing: border-box;
+    display: block;
+    max-height: 300px;
+    max-width: 400px;
+    background-color: rgb(121, 162, 238);
+    margin: 0;
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f;
+    position: fixed;
+}
+
+.botao {
+    font-size: 30px;
+}
+
+.porc {
+    width: 150px;
+}
+
+#botaoIgual {
+    position: absolute;
+    white-space: nowrap;
+}
+
+#igual {
+    display: block;
+    position: absolute;
+    padding: 0.2em 0.6em;
+    margin-bottom: 1em;
+    top: -68px;
+    left: 173.0px;
+}
+
+.display {
+    text-align: right;
+    display: block;
+    background-color: white;
+    color: black;
+    position: relative;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
